@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/tv1"
+        android:text="aa"
+        android:layout_height="wrap_content" />
+<TextView
+    android:layout_width="wrap_content"
+    android:id="@+id/tv2"
+    android:text="aa"
+    android:layout_height="wrap_content" />
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="140dp"
+        android:id="@+id/iv"
+        android:src="@mipmap/painting_03"
+        android:layout_height="140dp" />
+    <com.alexvasilkov.gestures.views.GestureImageView
+        android:layout_width="match_parent"
+        android:id="@+id/gesture"
+        android:visibility="invisible"
+        android:layout_height="match_parent">
+
+    </com.alexvasilkov.gestures.views.GestureImageView>
+</RelativeLayout>
