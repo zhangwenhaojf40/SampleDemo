@@ -11,6 +11,7 @@ public  class MyViewHolder extends RecyclerView.ViewHolder
         TextView tvAppName;
         TextView tvAppPageckage;
         TextView tvAppVersion;
+        TextView tvAppVersionName;
         ImageView ivIcon;
         public MyViewHolder(View view)
         {
@@ -18,6 +19,7 @@ public  class MyViewHolder extends RecyclerView.ViewHolder
             tvAppName = (TextView) view.findViewById(R.id.tv_app_name);
             tvAppPageckage = (TextView) view.findViewById(R.id.tv_app_pageckage);
             tvAppVersion = (TextView) view.findViewById(R.id.tv_app_version);
+            tvAppVersionName = (TextView) view.findViewById(R.id.tv_app_versionName);
             ivIcon = (ImageView) view.findViewById(R.id.iv_icon);
 
         }

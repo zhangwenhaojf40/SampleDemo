@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class Myadapter extends RecyclerView.Adapter<MyViewHolder> {
     Context context;
     ArrayList<AppInfo> appList;
-        public Myadapter(Context context,ArrayList<AppInfo> appList) {
+        public Myadapter(Context context, ArrayList<AppInfo> appList) {
             this.context = context;
             this.appList = appList;
 
@@ -29,6 +29,7 @@ public class Myadapter extends RecyclerView.Adapter<MyViewHolder> {
             holder.tvAppName.setText(appInfo.appName);
             holder.tvAppPageckage.setText(appInfo.packageName);
             holder.tvAppVersion.setText(String.valueOf(appInfo.versionCode));
+            holder.tvAppVersionName.setText(String.valueOf(appInfo.versionName));
 
         }
 
