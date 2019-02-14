@@ -1,4 +1,5 @@
 一、AppInfoManager
+[AppInfoManager安装包](https://github.com/zhangwenhaojf40/SampleDemo/raw/master/AppInfo.apk) 
 ------
 ***包管理***
 ![](https://i.imgur.com/pfV5crW.gif)
